@@ -1,0 +1,139 @@
+img{
+    max-width: 100%;
+}
+
+.top-text{
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+.top-text h6{
+    color: #3763eb;
+}
+.top-text h2 {
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 40px;
+
+    position: relative;
+}
+
+.top-text h2::after {
+    content: "";
+    position: absolute;
+    top: 142%;
+    left: 47%;
+    width: 52px;
+    height: 2px;
+    background: #3763eb;
+}
+.top-text p{
+    color:#948d9f ;
+}
+
+
+.blog-grid .blog-grid-img{
+    position: relative;
+}
+.blog-grid .blog-grid-img img{
+    border-radius: 3px;
+}
+
+.author {
+    background: #3763eb;
+    width: 146px;
+    height: 41px;
+    border-radius: 30px;
+    position: absolute;
+    bottom: 17px;
+    right: 18px;
+    /* opacity: 0; */
+    /* visibility: hidden; */
+}
+
+.author .author-img{
+    width: 32px;
+    height: 32px;
+    margin-right:12px;
+}
+
+.author .author-img img {
+    border-radius: 50%;
+    
+}
+.author .author-text{
+    margin-top: 6px;
+}
+.author .author-text h6{
+    color: #fff;
+    font-size: 11px;
+}
+
+.blog-grid-text{
+    margin-top: 18px;
+}
+.blog-grid-text h4{
+    font-weight: 500;
+}
+.blog-grid-text p{
+    color: #948d9f;
+}
+
+/* footer-section css */
+
+.footer-section{
+    background-color: #081828;
+}
+.about-bottom{}
+.about-bottom .company-logo {
+    width: 125px;
+    margin-bottom: 28px;
+}
+.about-bottom p {
+    color: #948d9f;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.about-bottom ul {
+    list-style: none;
+    padding-left: 0;
+}
+.about-bottom ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+.about-bottom ul li a {
+    color: #fff;
+    font-size: 20px;
+}
+
+.information{}
+.information h5{
+    color: #fff;
+    padding-left:12px;
+    border-left: 3px solid #3763eb;
+
+    margin-bottom: 30px;
+}
+.information ul{
+    list-style: none;
+    padding-left:3px;
+}
+.information ul li{
+    display: block;
+    margin: 15px 0px;
+}
+.information ul li a {
+    text-decoration: none;
+    color: #948d9f;
+    font-size: 14px;
+}
+
+.margin-bottom{
+    border-bottom: 1px solid #948d9f
+}
+
+.footer-bottom-text {
+    color: #948d9f;
+    margin-top: 17px;
+}
